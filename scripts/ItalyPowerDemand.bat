@@ -1,0 +1,1 @@
+python  train_class.py     --dataset ItalyPowerDemand  --size_cent  10   --size_1 2  --epoch  5   --epoch_1  5  --gru_dime   200  --a_3  800  --c  2  --pred_len  4  --p_recon 0.2  --p  0.9  --multi  10 --count  4  --port  2  --gpu 0   --seed 42  --max-threads  8

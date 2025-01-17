@@ -1,0 +1,1 @@
+python  train_class.py     --dataset  SharePriceIncrease  --size_cent   18   --size_1  8  --epoch  5   --epoch_1  8  --gru_dime   200  --a_3  800  --c  4   --pred_len  10   --p_recon 0.8  --p  0.1  --multi  50  --count  3  --port  2  --gpu 0   --seed 42  --max-threads  8

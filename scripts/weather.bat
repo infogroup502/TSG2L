@@ -1,0 +1,1 @@
+python  train_forecast.py     --dataset weather --size_cent  576   --size_1 576  --epoch  5   --epoch_1  20  --gru_dime   40  --a_3  200  --c  12  --pred_len  168  --p_recon 0.7  --p  0.6 --multi  20 --count  3  --port  6 --run_name  forecast_csv --loader forecast_csv  --gpu 0   --seed 42  --max-threads  8

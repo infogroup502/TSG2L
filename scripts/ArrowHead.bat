@@ -1,0 +1,1 @@
+python  train_class.py     --dataset ArrowHead  --size_cent   10   --size_1  4  --epoch  9   --epoch_1  4  --gru_dime   200  --a_3  600  --c  4   --pred_len  4   --p_recon 0.1  --p  0.5  --multi  50  --count  3  --port  2  --gpu 0   --seed 42  --max-threads  8

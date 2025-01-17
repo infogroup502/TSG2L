@@ -1,0 +1,1 @@
+python  train_class.py     --dataset RacketSports --size_cent   24   --size_1  24  --epoch  6   --epoch_1  8  --gru_dime   290  --a_3  500  --c  2  --pred_len  32   --p_recon 1  --p  0.5  --multi  70  --count  4  --port  2  --gpu 0   --seed 42  --max-threads  8
