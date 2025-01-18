@@ -1,5 +1,5 @@
 # TSG2L
-This repository contains the official implementation for the paper [Robust multivariate time series representation learning from global to local perspective]().
+This repository contains the official implementation for the paper [Noise-tolerant Universal Representation Learning for Multivariate Time Series from global-to-local Perspective]().
 
 ## Requirements
 The recommended requirements for TSG2L are specified as follows:
@@ -23,7 +23,9 @@ The datasets can be obtained and put into datasets/ folder in the following way:
 - [airquality](https://archive.ics.uci.edu/dataset/360/air+quality)should be placed at `datasets/forecast/airquality.csv`.
 ### classification
 - [128UCRdatasets](https://www.cs.ucr.edu/~eamonn/time_series_data_2018) should be put into `datasets/UCR/` so that each data file can be located by `datasets/UCR/<dataset_name>/<dataset_name>_*.csv`.
-Such as Chinatown, ItalyPowerDemand, RacketSports, ArrowHead, SharePriceIncrease.
+Such as Chinatown, ItalyPowerDemand, ArrowHead.
+- [30UEAdatasets](http://www.timeseriesclassification.com/dataset.php)) should be put into `datasets/UEA/` so that each data file can be located by `datasets/UEA/<dataset_name>/<dataset_name>_*.csv`.
+Such as RacketSports, SharePriceIncrease, BasciMotions.
 ### anomaly
 - [MSL](https://github.com/zhouhaoyi/ETDataset) should be placed at `datasets/anomaly/MSL.csv`.
 - [SMD](https://github.com/NetManAIOps/OmniAnomaly) should be placed at `datasets/anomaly/SMD.csv`.
