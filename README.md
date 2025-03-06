@@ -5,7 +5,8 @@ This repository provides a PyTorch implementation of TSG2L ([paper](https://pdf.
 <img src="https://github.com/infogroup502/TSG2L/blob/main/img/workflow.jpg" width="850px">
 
 ## Main Results
-
+<img src="https://github.com/infogroup502/TSG2L/blob/main/img/Classification_result.png" width="850px">
+<img src="https://github.com/infogroup502/TSG2L/blob/main/img/AD_result.png" width="850px">
 
 ## Requirements
 The recommended requirements for TSG2L are specified as follows:
@@ -55,3 +56,18 @@ The detailed descriptions about the arguments are as following:
 
 After training and evaluation, the trained encoder, output and evaluation metrics can be found in `training/DatasetName__RunName_Date_Time/`. 
 **Scripts:** The scripts for reproduction are provided in scripts/ folder.
+
+## BibTex Citation
+```bash
+@article{CHEN2025113137,
+title = {Noise-tolerant universal representation learning for multivariate time series from global-to-local perspective},
+journal = {Knowledge-Based Systems},
+volume = {312},
+pages = {113137},
+year = {2025},
+issn = {0950-7051},
+doi = {https://doi.org/10.1016/j.knosys.2025.113137},
+author = {Lei Chen and Yepeng Xu and Chaoqun Fan and Yuan Li and Ming Li and Zexin Lu and Xinquan Xie},
+}
+
+```
