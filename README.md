@@ -59,7 +59,7 @@ After training and evaluation, the trained encoder, output and evaluation metric
 
 ## BibTex Citation
 ```bash
-@article{CHEN2025113137,
+@article{CHEN2025,
 title = {Noise-tolerant universal representation learning for multivariate time series from global-to-local perspective},
 journal = {Knowledge-Based Systems},
 volume = {312},
